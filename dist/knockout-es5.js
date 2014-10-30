@@ -588,4 +588,4 @@ void function(global, undefined_, undefined){
   WM.createStorage = createStorage;
   if (global.WeakMap)
     global.WeakMap.createStorage = createStorage;
-}((0, eval)('this'));
+}(this);
